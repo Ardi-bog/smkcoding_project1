@@ -20,7 +20,7 @@
                 android:fontFamily="casual"
                 android:textStyle="bold"/>
         <ImageView
-                android:id="@+id/iv_foto"
+                android:id="@+id/foto"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/ic_person"
@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_below="@id/iv_foto">
+                android:layout_below="@id/foto">
             <LinearLayout
 
                     android:layout_width="match_parent"
@@ -168,19 +168,19 @@
                         android:id="@+id/btnEditName"
                         android:layout_width="100dp"
                         android:layout_height="60dp"
-                        android:layout_margin="16dp"
+                        android:layout_margin="10dp"
                         android:text="EDIT NAMA"/>
                 <Button
                         android:id="@+id/btnCall"
                         android:layout_width="100dp"
                         android:layout_height="60dp"
-                        android:layout_margin="16dp"
+                        android:layout_margin="10dp"
                         android:text="DIAL"/>
                 <Button
                         android:id="@+id/btnCall"
                         android:layout_width="100dp"
                         android:layout_height="60dp"
-                        android:layout_margin="16dp"
+                        android:layout_margin="10dp"
                         android:text="About"/>
             </LinearLayout>
 

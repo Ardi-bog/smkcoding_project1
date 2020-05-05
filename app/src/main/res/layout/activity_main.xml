@@ -11,7 +11,7 @@
                   android:id="@+id/header"
                   android:layout_height="50dp"
                   android:orientation="vertical"
-                  android:background="#008172"
+                  android:background="#6C63FF"
                   tools:context=".MainActivity">
 
         <TextView android:layout_width="match_parent"
