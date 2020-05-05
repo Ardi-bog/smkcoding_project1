@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".profil">
         </activity>
+        <activity android:name=".edit">
+        </activity>
     </application>
 
 </manifest>
