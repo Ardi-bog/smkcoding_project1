@@ -4,7 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context=".EditProfilActivity">
+              tools:context=".edit">
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,6 +20,8 @@
     <Button
             android:id="@+id/btnEditSave"
             android:layout_width="match_parent"
+            android:background="@drawable/input"
+            android:textColor="#fff"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
 

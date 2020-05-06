@@ -17,7 +17,8 @@
                 android:layout_alignParentStart="true"
                 android:gravity="center_horizontal"
                 android:textSize="20sp"
-                android:fontFamily="casual"
+                android:layout_margin="10dp"
+                android:fontFamily="monospace"
                 android:textStyle="bold"/>
         <ImageView
                 android:id="@+id/foto"
@@ -51,7 +52,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textSize="18sp"
-                        android:text="dummy text name"/>
+                        android:text=" dummy text name"/>
 
             </LinearLayout>
             <LinearLayout
@@ -71,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textSize="18sp"
-                        android:text="laki-laki"/>
+                        android:text=" laki-laki"/>
 
             </LinearLayout>
             <LinearLayout
@@ -92,7 +93,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textSize="18sp"
-                        android:text="dummy@gmail.com"/>
+                        android:text=" dummy@gmail.com"/>
 
 
             </LinearLayout>
@@ -115,7 +116,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textSize="18sp"
-                        android:text="20"/>
+                        android:text=" 20"/>
             </LinearLayout>
 
             <LinearLayout
@@ -138,7 +139,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textSize="18sp"
-                        android:text="085123123123"/>
+                        android:text=" 085123123123"/>
             </LinearLayout>
             <LinearLayout
                     android:layout_width="match_parent"
@@ -158,7 +159,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textSize="18sp"
-                        android:text="Malang, Indonesia"/>
+                        android:text=" Malang, Indonesia"/>
 
             </LinearLayout>
             <LinearLayout android:layout_width="match_parent"
@@ -169,15 +170,21 @@
                         android:layout_width="100dp"
                         android:layout_height="60dp"
                         android:layout_margin="10dp"
-                        android:text="EDIT NAMA"/>
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
+                        android:text="Edit Nama"/>
                 <Button
                         android:id="@+id/btnCall"
                         android:layout_width="100dp"
                         android:layout_height="60dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
                         android:layout_margin="10dp"
                         android:text="DIAL"/>
                 <Button
-                        android:id="@+id/btnCall"
+                        android:id="@+id/btnAbout"
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
                         android:layout_width="100dp"
                         android:layout_height="60dp"
                         android:layout_margin="10dp"

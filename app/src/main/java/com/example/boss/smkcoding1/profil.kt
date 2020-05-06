@@ -25,6 +25,8 @@ class profil : AppCompatActivity() {
         btnEditName.setOnClickListener{ navigasiKeEditProfil() }
 
         btnCall.setOnClickListener{dialPhoneNumber(txtTelp.text.toString())}
+
+        btnAbout.setOnClickListener{ halamanAbout()}
     }
 
     private fun ambilData(){
@@ -52,6 +54,11 @@ class profil : AppCompatActivity() {
         intent.putExtra("nama", namaUser)
 
         startActivityForResult(intent, REQUEST_CODE)
+    }
+    private fun halamanAbout(){
+        val intent = Intent(this,about::class.java)
+
+        startActivity(intent)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

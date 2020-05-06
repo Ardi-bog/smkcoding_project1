@@ -72,6 +72,8 @@
         <Button android:layout_width="match_parent"
                 android:id="@+id/btnSave"
                 android:text="Simpan"
+                android:textColor="#fff"
+                android:background="@drawable/input"
                 android:layout_margin="16dp"
                 android:layout_height="wrap_content"/>
     </LinearLayout>
