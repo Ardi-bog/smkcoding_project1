@@ -1,3 +1,5 @@
+Challenge 1 SMKCoding
+
 SplashScreen
 ![Screenshot_20200507_184331_com example boss smkcoding1](https://user-images.githubusercontent.com/57175382/81291710-84745f00-9094-11ea-80bf-7fdfd010bae1.jpg)
 
